@@ -8,7 +8,7 @@ import image9Arrow from "./assets/image9Arrow.png";
 // import image11 from "./assets/image11.png";
 // import image12 from "./assets/image12.png";
 // import image26 from "./assets/image26.png";
-const Natschemes = () => {
+const Stateschemes = () => {
   return (
     <>
     <div className="nat-schemes">
@@ -59,5 +59,5 @@ const Natschemes = () => {
     </>
   );
 };
-export default Natschemes;
+export default Stateschemes;
 
