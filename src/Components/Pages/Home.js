@@ -5,6 +5,7 @@ function Home() {
   
   return (
     <>
+    <div className='content'>
     <br/>
     <h2><b><u>About SchemeUp</u></b></h2>
     <br/>
@@ -23,6 +24,8 @@ function Home() {
             <li>Advantageous to rural people</li>
         </p>
     </div>
+    </div>
+    
     </>
   );
 }

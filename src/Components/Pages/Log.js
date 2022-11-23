@@ -2,6 +2,7 @@ import React from 'react'
 import'./login.css'
 import './Register.js';
 import '../Navbar.js'
+import './Home.js'
 import {Button,TextField} from '@mui/material'
 import {Link} from 'react-router-dom'
 import man from './man.png'
@@ -26,9 +27,13 @@ const Log = () => {
             {/* <input type="password" className='s' placeholder='PASSWORD'></input> */}
             </span>
         </div>
-        <button className='rectangle-3' onClick={pro}>
-         <Link to='/Navbar'>Login</Link>
-        </button>
+        
+         <Link to='/Home'>
+         <button className='rectangle-3' >
+          Login
+          </button>
+         </Link>
+        
         <div>
 
         <span className="new-user-create-acco">New user? <a className='ir' id="rk" href='Register.js'><Link to="/Register">Create Account</Link></a></span>

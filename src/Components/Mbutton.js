@@ -2,7 +2,7 @@ import {Button,TextField,RadioGroup,FormLabel,FormControl,FormControlLabel,Radio
 // import { ReactElement, JSXElementConstructor, ReactFragment, ReactPortal } from 'react';
 export const Uibutton=(props)=>{
     return(
-        <Button type='submit' variant='contained'>{props.name}</Button>
+        <Button type='submit' sx={{ width: 300,padding: 1}} variant='contained'>{props.name}</Button>
     )
 }
 export const Textbox=(props)=>{
@@ -14,7 +14,7 @@ export const Numbox=(props)=>{
     return(
         <TextField InputProps={{
             startAdornment: <InputAdornment position="start">₹</InputAdornment>,
-          }} helperText="Enter the Annual Income" required inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} label={props.name}/>
+          }} helperText="Enter the Annual Income" required sx={{ width: 300}} inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} label={props.name}/>
     )
 }
 export const Bradio=(props)=>{

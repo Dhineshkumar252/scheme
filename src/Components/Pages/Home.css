@@ -1,12 +1,24 @@
 *{
     font-style: Poppins;
 }
+
 h2{
     align-items: center;
     padding-left: 20px;
     font-size:25px;
 }
+
 div.Home{
     padding-left: 20px;
     font-size:25px;
+}
+.content{
+    padding-top: 3%;
+    padding-left: 5%;
+    background-color: rgb(147, 223, 223);
+    margin: 9%;
+    padding-right: 4%;
+    padding-bottom: 3%;
+    border-radius: 20px;
+    box-shadow: 9px 4px rgba(151, 163, 151, 0.336);
 }

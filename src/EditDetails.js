@@ -1,5 +1,6 @@
 import { Uibutton,Numbox,Textbox,Bradio,DropdownM,DropdownC,DropdownEmp,DropdownEdu,DropdownR} from './Components/Mbutton';
 import {Typography} from '@mui/material';
+import {Link} from 'react-router-dom'
 import './EditDetails.css';
 import {useState} from 'react';
 const initialVal={
@@ -46,7 +47,7 @@ const EditDetails=()=>{
           <DropdownEdu id="eduqual" value={values.eduqual} name='Highest Educational Qualification'></DropdownEdu>
           <DropdownEmp id="emp" value={values.emp} name='Employment Status'></DropdownEmp>
           <Numbox id="income" value={values.income} name='Annual Income' val='₹'></Numbox>
-          <Uibutton id="submit" name='Submit'></Uibutton>
+          <Link to='/Home'><Uibutton id="submit" name='Submit'></Uibutton></Link>
         </div>
       </div>
     </form>
