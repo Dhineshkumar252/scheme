@@ -8,9 +8,7 @@ function Stateschemes() {
   return (
     <>
     <div className="nat-schemes">
-        <Link to="/Home">
-        <img className="image-9-arrow" src={image9Arrow} alt="9" />
-        </Link>
+        
       <div className="rectangle-19">
       <Link to="/Bondedlabour">
         <p className="pragati-scholarship" >

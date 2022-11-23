@@ -18,7 +18,10 @@ import Stateschemes from './Stateschemes'
 import Camps from './Components/camps/Camps'
 import Log from './Components/Pages/Log'
 import Register from './Components/Pages/Register'
-
+import Boundedlabour from './Bondedlabour'
+import TnDiffAble from './TnDiffAble'
+import RIMCDehradun from './RIMCDehradun'
+import TnDiffNB from './TnDiffNB'
 
 function Mainpage() {
   return (
@@ -44,6 +47,10 @@ function Mainpage() {
         <Route path='/EditDetails' element={<EditDetails/>}/>
         <Route path='/NCS' element={<NCS/>}/>
         <Route path='/PMJJBY' element={<PMJJBY/>}/>
+        <Route path='/TnDiffAble'  element={<TnDiffAble/>}/>
+        <Route path='/Bondedlabour'  element={<Boundedlabour/>}/>
+        <Route path='/RIMCDehradun'  element={<RIMCDehradun/>}/>
+        <Route path='/TnDiffNB'  element={<TnDiffNB/>}/>
         <Route path='/Logout' element={<Logout/>} />
         </Routes>
     </BrowserRouter>

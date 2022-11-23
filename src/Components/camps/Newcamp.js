@@ -1,7 +1,7 @@
 import "./Newcamp.css";
 import calendar from "./calendar.png";
 import location from "./location.png";
-const Newcamp = () => {
+const Newcamp2 = () => {
   return (<div id="main">
     <h1>Polio Drops Camp</h1>
     <br></br>
@@ -27,4 +27,4 @@ const Newcamp = () => {
 
   </div>)
 }
-export default Newcamp
+export default Newcamp2

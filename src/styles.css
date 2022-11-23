@@ -6,6 +6,10 @@
     padding: 0%;
     
 }
+.rectangle-19{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
 body{
     background: linear-gradient(to right, #89aaff71, #ef32d93c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
