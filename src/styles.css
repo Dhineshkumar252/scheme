@@ -1,0 +1,59 @@
+*{
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: monospace;
+    padding: 0%;
+    
+}
+body{
+    background: linear-gradient(to right, #89aaff71, #ef32d93c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#back{
+    margin-left: 5%;
+    width: 70px;
+    position: absolute;
+
+}
+#logo{
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 90%;
+    width: 90px;
+}
+#topic{
+    margin-left: 20%;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 35px;
+}
+#desc{
+    text-indent: 20px;
+    margin: 4%;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 30px;
+    background-color: rgba(159, 230, 238, 0.552);
+}
+#details{
+    line-height:4vh;
+    margin: 2% 5%;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-indent: 10px;
+    background-color: rgba(159, 230, 238, 0.552);
+}
+button{
+    cursor: pointer;
+    background-color: rgb(246, 180, 180);
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: 2%;
+    margin-left: 48%;
+    color: rgb(83, 77, 77);
+    font-weight: bold;
+    box-shadow: 2px 2px rgba(210, 208, 208, 0.426);
+}

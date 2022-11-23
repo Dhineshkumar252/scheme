@@ -1,0 +1,73 @@
+.nat-schemes {
+  color: #000;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#9064d8fc 34.7973%, #f7f8c4 100%);
+  background-size: cover;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: Poppins;
+  font-size: 25px;
+  line-height: 30px;
+  display: flex;
+}
+p{
+  color:black;
+  text-decoration: none;
+}
+.image-9-arrow{
+    width: 77px;
+    height: 77px;
+    position: relative;
+    right: 650px;
+    align-items: flex-start;
+}
+.rectangle-19 {
+  width: 85%;
+  background-color: #fafafa;
+  border-radius: 32px;
+  flex-direction: row;
+  flex-basis: 9%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding-right: 15px;
+  display: flex;
+}
+.pragati-scholarship,.merit-cum-means-scho,.scholarships-for-top,.prime-ministers-scho,.central-sector-schem,.national-scheme-on-w,.national-career-serv,.pm-jeevan-jyoti-bima {
+  margin-top: 9px;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 25px;
+  margin-left: 9px;
+  align-items: flex-start;
+}
+
+.image-11,.image-12,.image-13,.image-21,.image-26,.image-27,.image-23 {
+  width: 79px;
+  height: 79px;
+  align-items: flex-end;
+}
+ .image-13,.image-27{
+  position: relative;
+  left:120px;
+ }
+
+ .image-12,.image-27{
+  position: relative;
+  left:20px;
+ }
+ .image-23{
+  position: relative;
+  left:35px;
+ }
+.image-26{
+  position: relative;
+  left:70px;
+ }
+ .image-27{
+  position: relative;
+  left:130px;
+ }
