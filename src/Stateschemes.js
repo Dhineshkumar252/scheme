@@ -1,9 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import './styles.css'
 import back from './back.png'
 import image9Arrow from "./assets/image9Arrow.png";
 
-function Stateschemes() {
+function Stateschemes(
   return (
     <>
     <div className="nat-schemes">
