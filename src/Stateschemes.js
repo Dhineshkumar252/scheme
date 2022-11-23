@@ -6,33 +6,53 @@ import image9Arrow from "./assets/image9Arrow.png";
 
 function Stateschemes() {
   return (
-    <div>
-       <Link to="/Home">
+    <>
+    <div className="nat-schemes">
+        <Link to="/Home">
         <img className="image-9-arrow" src={image9Arrow} alt="9" />
         </Link>
-
-         {/* <a href='#'><img id='back' src={back} /></a>  */}
-        
-        <h2 id='topic'> Scheme for integrated textile parks Under the Scheme for setting up of Integrated Textile Parks</h2>
-        <p id='desc'>The objective of the Scheme is to provide financial assistance to the poor and meritorious students belonging to minority communities to enable them to pursue professional and technical courses
-        Eligibility
- To be eligible, an applicant must - 
-   1. belong to Minority communities (Muslims, Sikhs, Christians, Buddhists, Jain, and Parsis/Zoroastrians)
-   2. be pursuing a technical or professional course at the undergraduate or postgraduate level from a recognized institution
+      <div className="rectangle-19">
+      <Link to="/Bondedlabour">
+        <p className="pragati-scholarship" >
+          Abolition of Bonded Labour System
         </p>
-        <br></br>
-        <p id='details'>
-        Document Required
-   1. Domicile Certificate
-   2. Student Photograph
-   3. Self Declaration of minority community certificate by the student
-   4. Self-attested copy of previous academic marksheet
-   5. Fee receipt of current course year
-   6. Scanned copy of Aadhar Enrollment/Aadhar Card
+        </Link>
+        {/* <img className="image-11" src={image11} alt="11" /> */}
+      </div>
+      <div className="rectangle-19">
+      <Link to="/TnDiffAble">
+        <p className="merit-cum-means-scho">
+          Scholarship for Differently abled students from Class 9th Onwards,Tamilnadu
         </p>
-        <br></br>
-        <a target='_blank' href='https://scholarships.gov.in/'><button>Apply</button></a>
+        </Link>
+        {/* <img className="image-12" src={image12} alt="12"/> */}
+      </div>
+      <div className="rectangle-19">
+      <Link to="/RIMCDehradun">
+        <p className="scholarships-for-top">
+          R.I.M.C Dehradun Scholarship,Tamilnadu
+        </p>
+        </Link>
+        {/* <img className="image-21" src={image21} alt="21"/> */}
+      </div>
+        <div className="rectangle-19">
+        <Link to="/TnDiffNB">
+          <p className="prime-ministers-scho">
+            Scholarship for Differently abled students towards purchase of Books and Notebooks,TamilNadu
+          </p>
+          </Link>
+          {/* <img className="image-13" src={image13} alt="13"/> */}
+        </div>
+      <div className="rectangle-19">
+        <Link to="/textile">
+          <p className="central-sector-schem">
+          Scheme for integrated textile parks Under the Scheme for setting up of Integrated Textile Parks
+          </p>
+        </Link>
+        {/* <img className="image-11" src={image11} alt="11" /> */}
+      </div>
     </div>
+    </>
   )
 }
 
