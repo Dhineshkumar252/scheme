@@ -48,7 +48,7 @@ const Natschemes = () => {
           {/* <img className="image-13" src={image13} alt="13"/> */}
         </div>
       <div className="rectangle-19">
-        <Link to="/CSSS">
+        <Link to="/textile">
           <p className="central-sector-schem">
           Scheme for integrated textile parks Under the Scheme for setting up of Integrated Textile Parks
           </p>
