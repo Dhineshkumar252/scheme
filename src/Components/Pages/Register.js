@@ -13,7 +13,7 @@ const Register = () => {
     }
   return (
     <div>
-        <div className='cr'>CREATE ACCOUNT</div>
+        <h1 className='rr'>CREATE ACCOUNT</h1>
         <div className='create'>
  <div  className='email'>
                 <p className='mail' src="mail.png" alt="r"/>

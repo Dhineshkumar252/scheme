@@ -12,15 +12,15 @@ const Log = () => {
   }
   return (
     <div className="original-login">
-      <div className='cr'>LOGIN</div>
+      <h1 className='cr'>LOGIN</h1>
       <div className="login-box">
         <div className="flex-container">
-           <p className="img2" ></p> 
+           <p className="img2" src={man}/> 
            <TextField id="outlined-basic" type="email" label="Email" variant="outlined" />
           {/* <input type="email" className="r" placeholder='EMAIL'></input> */}
         </div>
         <div className="flex-container-1">
-           <p className="img3" ></p>
+           <p className="img3" />
           <span>
            <TextField id="outlined-basic" type="password" label="Password" variant="outlined" />
             {/* <input type="password" className='s' placeholder='PASSWORD'></input> */}

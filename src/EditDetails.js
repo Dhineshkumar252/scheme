@@ -29,7 +29,7 @@ const EditDetails=()=>{
     <form>
       <div className='main'>
         <div className='left'>  
-          <Typography  variant='h4' >General Details</Typography>
+          <h1>General Details</h1>
           <br></br>
           <Textbox id="name" name="Fullname" value={values.name}></Textbox>
           <br></br>

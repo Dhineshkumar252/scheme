@@ -8,19 +8,22 @@
   height:100vh;
   display:flex;
 }
+h1{
+  font-size: 35px;
+}
 .left{
   justify-content:space-evenly;
   display:flex;
   flex-direction:column;
-  padding: 2% 0% 5% 7%;
+  padding: 2% 0% 5% 10%;
   background-color: rgba(147, 245, 211, 0.756);
-  width: 43%;
+  width: 50%;
 }
 .right{
   justify-content:space-evenly;
   display:flex;
   flex-direction:column;
-  padding: 4% 0% 5% 11%;
+  padding: 4% 0% 5% 16%;
 }
 img{
   position:absolute;
