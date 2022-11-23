@@ -70,7 +70,7 @@ body{
   .img3 {
     width: 49px;
     height: 52px;
-    margin-right: 10px;
+    margin-right: 6px;
     object-fit: cover;
     background-position: center;
     background-size: cover;
@@ -122,5 +122,5 @@ body{
   .cr{
     width: 300px;
     align-items: center;
-    margin-left: 1000px;
+    margin-left: 850px;
   }

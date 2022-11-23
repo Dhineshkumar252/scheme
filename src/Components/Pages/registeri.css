@@ -136,7 +136,7 @@ body{
       align-items: flex-end;
       margin-top: 7px;
       margin-bottom: 8px;
-      margin-left: 490px;
+      margin-left: 440px;
       display: flex;
     }
     
@@ -169,7 +169,7 @@ body{
       background-image: url("twitter.png");
     }
     .box{
-        width: 80%;
+        width: 90%;
         flex-direction: row;
         justify-content: space-between;
         align-self: flex-end;
