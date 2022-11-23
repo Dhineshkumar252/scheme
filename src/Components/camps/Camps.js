@@ -1,16 +1,16 @@
 import "./Campsfront.css";
-import back1 from "./back1.png";
+// import back1 from "./back1.png";
 import logo from "./logo.jpeg";
-import image9Arrow from "./image9Arrow.png"
-import {Link} from 'react-router-dom'
+// import image9Arrow from "./image9Arrow.png"
+// import {Link} from 'react-router-dom'
 
 const Camps = () => {
   return (
     <div className="nat-schemes">
       <div className="flex-container">
-      <Link to="/Home">
+      {/* <Link to="/Home">
         <img className="image-9-arrow" src={image9Arrow} alt="9" />
-        </Link>
+        </Link> */}
       {/* <a href ="#"><img src={back1}></img></a> */}
       <img id = "logo1" src={logo}></img>
       </div>

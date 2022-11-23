@@ -19,9 +19,6 @@ function Stateschemes() {
  To be eligible, an applicant must - 
    1. belong to Minority communities (Muslims, Sikhs, Christians, Buddhists, Jain, and Parsis/Zoroastrians)
    2. be pursuing a technical or professional course at the undergraduate or postgraduate level from a recognized institution
-   
-
-
         </p>
         <br></br>
         <p id='details'>
